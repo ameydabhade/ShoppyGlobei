@@ -7,13 +7,14 @@ export default function ProductDetail() {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const dispatch = useDispatch();
-
+//fetched from dummy json
   useEffect(() => {
     fetch(`https://dummyjson.com/products/${id}`)
       .then((response) => response.json())
       .then((data) => setProduct(data));
   }, [id]);
 
+  //dispatched addToCart
   function handleAddToCart () {
     if (product) {
       dispatch(addToCart(product));

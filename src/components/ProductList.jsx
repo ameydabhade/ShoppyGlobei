@@ -5,7 +5,7 @@ import ProductItem from './ProductItem';
 export default function ProductList() {
   const { products } = useProductList();
   const [searchTerm, setSearchTerm] = useState('');
-
+//filtered products to implement search
   const filteredProducts = products.filter(product =>
     product.title.toLowerCase().includes(searchTerm.toLowerCase())
   );

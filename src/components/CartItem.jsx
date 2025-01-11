@@ -42,7 +42,7 @@ export default function CartItem({ item }) {
           </button>
 
 
-          <span className="text-lg font-semibold text-gray-700">{item.quantity}</span>  {/* Display quantity */}
+          <span className="text-lg font-semibold text-gray-700">{item.quantity}</span>  
 
  
           <button 
@@ -53,7 +53,7 @@ export default function CartItem({ item }) {
           </button>
         </div>
 
-        {/* Remove button to delete item */}
+
         <button 
           onClick={handleRemove} 
           className="bg-red-600 text-white py-2 px-4 rounded-lg hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 transition-all"
