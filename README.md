@@ -11,5 +11,5 @@
 ```npm start```
 
 
-# Vercel Link : https://shoppy-globe-h1a9.vercel.app
-# ShoppyGlobei
+# Vercel Link : https://shoppy-globei.vercel.app
+
